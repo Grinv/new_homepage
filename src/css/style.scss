@@ -125,7 +125,7 @@ a.btn {
   }
   @for $i from 0 through 3 {
     &#section#{$i} {
-      background-image: url($bg_dir + 'bg' + $i + '.jpg');
+      background-image: url('./' + $bg_dir + 'bg' + $i + '.jpg');
     }
   }
 }

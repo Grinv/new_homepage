@@ -4,7 +4,8 @@
   "description": "The streaming build system",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp build"
+    "test": "gulp build",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,22 +30,24 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "css-loader": "^0.23.1",
+    "css-loader": "^4.1.0",
     "cssnano": "^3.6.2",
     "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.1",
+    "file-loader": "^6.0.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^3.0.1",
     "gulp-postcss": "^6.1.1",
     "imagemin-pngquant": "^9.0.0",
     "install": "^0.8.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "rimraf": "^2.5.2",
-    "sass-loader": "^3.2.3",
-    "style-loader": "^0.13.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "url-loader": "^0.5.5",
-    "webpack": "^1.13.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
     "webpack-stream": "^3.2.0"
   }
 }
