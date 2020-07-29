@@ -2,17 +2,17 @@ define(['jquery'], function($) {
   return $("#preload-box i").delay(10).fadeIn(2000);
 });
 
-define(['jquery', 'fullpage.js', 'animate.css'], function($, fullpage) {
+define(['jquery', 'fullpage.js'], function($, fullpage) {
   return $('#fullpage').fullpage({
     anchors: ['main', 'about', 'portfolio', 'contacts'],
     menu: "#menu",
     loopBottom: true,
     afterLoad: function(link, index) {
       if ($(".section.active .wrapper").hasClass('novisible') && index !== 1) {
-        $(".section.active .wrapper").delay(2000).removeClass("novisible").addClass('visible animated fadeIn');
+        $(".section.active .wrapper").delay(2000).removeClass("novisible").addClass('visible animate__animated animate__fadeIn');
         $(".section.active .scrollDown").fadeIn(2000);
         if (index === 4) {
-          return $("#links").removeClass("novisible").addClass('visible animated fadeIn');
+          return $("#links").removeClass("novisible").addClass('visible animate__animated animate__fadeIn');
         }
       }
     },

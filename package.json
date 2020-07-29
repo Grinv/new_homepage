@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Grinv/grinv.github.io#readme",
   "dependencies": {
-    "animate.css": "^3.7.2",
+    "animate.css": "^4.1.0",
     "font-awesome": "^4.7.0",
     "fullpage.js": "^2.8.0",
     "img-loader": "^1.2.2",
