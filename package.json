@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Grinv/grinv.github.io#readme",
   "dependencies": {
-    "animate.css": "^3.5.1",
+    "animate.css": "^3.7.2",
     "font-awesome": "^4.7.0",
     "fullpage.js": "^2.8.0",
     "img-loader": "^1.2.2",
@@ -37,7 +37,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^3.0.1",
     "gulp-postcss": "^6.1.1",
-    "imagemin-pngquant": "^5.0.0",
+    "imagemin-pngquant": "^9.0.0",
     "install": "^0.8.1",
     "node-sass": "^4.14.1",
     "rimraf": "^2.5.2",
