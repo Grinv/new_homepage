@@ -1,0 +1,51 @@
+{
+  "name": "iost.me",
+  "version": "0.0.1",
+  "description": "The streaming build system",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grinv/grinv.github.io.git"
+  },
+  "keywords": [
+    "iost",
+    "homepage"
+  ],
+  "author": "Konstantin Ostrovskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grinv/grinv.github.io/issues"
+  },
+  "homepage": "https://github.com/Grinv/grinv.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "animate.css": "^3.5.1",
+    "autoprefixer": "^6.3.6",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "css-loader": "^0.23.1",
+    "cssnano": "^3.6.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.1",
+    "font-awesome": "^4.6.3",
+    "fullpage.js": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-postcss": "^6.1.1",
+    "imagemin-pngquant": "^5.0.0",
+    "img-loader": "^1.2.2",
+    "install": "^0.8.1",
+    "jquery": "^2.2.4",
+    "node-sass": "^3.7.0",
+    "rimraf": "^2.5.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
