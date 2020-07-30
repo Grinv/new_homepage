@@ -1,4 +1,6 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
   entry: './src/entry.js',
@@ -7,6 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     publicPath: "./build/"
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: './src/img/images/', to: 'img/' },
+      ],
+    }),
+    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
+  ],
   module: {
     rules: [
       {
