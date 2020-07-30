@@ -1,4 +1,4 @@
-@import "~font-awesome/css/font-awesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 @import "~fullpage.js/dist/jquery.fullPage.css";
 @import "~animate.css/animate.min.css";
 
@@ -78,7 +78,7 @@ a.btn {
     text-decoration: none;
     background: rgba(0, 0, 0, .7);
   }
-  i.fa {
+  i.far, i.fas {
     color: $gray;
     font-size: 1.2em;
   }

@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/Grinv/grinv.github.io#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "animate.css": "^4.1.0",
-    "font-awesome": "^4.7.0",
     "fullpage.js": "^2.9.7",
     "jquery": "^3.5.1"
   },
